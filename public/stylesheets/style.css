@@ -1,8 +1,36 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+    color: #00b7ff;
+}
+
+form {
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+}
+
+.item label {
+    font-weight: bold;
+    color: #00b7ff;
+}
+
+.item input {
+    padding: 4px 8px;
+}
+
+form button {
+    justify-self: start;
+    cursor: pointer;
 }
