@@ -7,12 +7,18 @@ a {
     color: #00b7ff;
 }
 
-form {
-    width: 400px;
-    margin: 0 auto;
+.form-container {
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
 }
 
 .item {
